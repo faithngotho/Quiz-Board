@@ -1,9 +1,6 @@
 h1{
-    text-align: center;
-    color:blue;
-    font-family: fantasy;
-    font-size: 25px;
-    font-style: italic;
+  color: blue;
+}
 }
 .jumbotron{
   color: red;
@@ -23,6 +20,4 @@ bacgroud color: blue;
 }
 #fifth-p p{
     text-align: center;
-    transform: translate(0%,190%);
     font-size: 40px;
-}

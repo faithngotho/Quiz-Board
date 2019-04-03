@@ -29,14 +29,4 @@ body{
   margin-0;
   font-family: serif;
   font-size: 25px;
-  background-image: url(coding.jpg);
-  background-repeat: no-repeat;
-}
-.box{
-  border-left: 2px solid green;
-  border-right: 4px solid green;
-  border-top: 6px solid green;
-  border-bottom: 8px solid green;
-  padding:6px;
-  margin:20px;
 }

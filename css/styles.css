@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 #display{
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .submit{
@@ -24,7 +23,7 @@ h2{
 
 h1{
   text-align: center;
-=======
+}
 
 body{
   margin-0;
@@ -40,5 +39,4 @@ body{
   border-bottom: 8px solid green;
   padding:6px;
   margin:20px;
->>>>>>> c60be27e41103c856a34c57933bd0bd184f5eb44
 }

@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>QUIZ BOARD</title>
 </head>
-<title>QUIZ BOARD</title>
+
+
 <body>
-    <div class="container">
-                <h1>QUIZ BOARD</h1>
-              </div>
-              <br>
-              <h2><em>Answer all the questions correctly.</em></h2>
-              <div class="panel panel-primary">
-                <div class="panel-heading">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>QUIZ BOARD</h1>
+    </div>
 
-              <p><strong class="panel-title"> 1. What is the shortform of HTML?</P>
-              </div>
-              <br>
-              <div class="panel-body">
-<input type="radio" name="questionOne" id="mc" value="wrong">HMLT.<br>
-<input type="radio" name="questionOne" id="mc" value="correct">HTML.<br>
-<input type="radio" name="questionOne" id="mc" value="wrong">HMTL.<br>
-</div>
-
-<div class="panel panel-primary">
-  <div class="panel-heading">
-            <p><strong class="panel-title"> 2. The other name of Javascript is?></p>
-            </div>
-            <br>
-            <input type="radio" name="questionTwo" id="mc" value="wrong">jQuery.<br>
-            <input type="radio" name="questionTwo" id="mc" value="wrong">bootstrap.<br>
-            <input type="radio" name="questionTwo" id="mc" value="correct">Js.<br>
-            <div class="panel-body">
-
-            </div>
-          </div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-            <p><strong class="panel-title"> 3. The following are basics of bootstrap except?<p>
-            </div>
-          <br>
-          <input type="radio" name="questionThree" id="mc" value="wrong">container.<br>
-          <input type="radio" name="questionThree" id="mc" value="wrong">Well.<br>
-          <input type="radio" name="questionThree" id="mc" value="correct">Github.<br>
-          <div class="panel-body">
-
-          </div>
-          </div>
-          <div class="pane panel-primary">
-            <div class="panel-heading">
-          <p><strong class="panel-title"> 4. Whicch of the following is not taught at Moringa School?<p>
-          </div>
-          <br>
-          <input type="radio" name="questionFour" id="mc" value="wrong">html.<br>
-          <input type="radio" name="questionFour" id="mc" value="wrong">css.<br>
-          <input type="radio" name="questionFour" id="mc" value="correct">Enail.<br>
-          <div class="panel-body">
-          </div>
+    <form>
+      <h2><em>Answer all the questions.</em></h2>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <p><strong class="panel-title"> 1. Which tag is used to link javaScript in HTML?</P>
         </div>
-  <button type="button"id="mc"class="btn-info">Submit</button>
-</div>
-        <form >
+        <br>
+        <input type="radio" name="questionOne" value="0"> HTML.<br>
+        <input type="radio" name="questionOne" value="25"> script.<br>
+        <input type="radio" name="questionOne" value="0"> js .<br>
+      </div>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <p><strong class="panel-title"> 2. What is the short form of Javascript?></p>
         </div>
-      <div id="fifth-p">
-    <p id="correctNumber">HERE IS YOUR SCORE:</p>
-</div>
+        <br>
+        <input type="radio" name="questionTwo" value="0">jQuery.<br>
+        <input type="radio" name="questionTwo" value="0">bootstrap.<br>
+        <input type="radio" name="questionTwo" value="25">Js.<br>
+      </div>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <p><strong class="panel-title"> 3. The following are not types of datatypes?<p>
+        </div>
+        <br>
+        <input type="radio" name="questionThree" value="0">strings.<br>
+        <input type="radio" name="questionThree" value="0">numbers.<br>
+        <input type="radio" name="questionThree" value="25">Github.<br>
+      </div>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <p><strong class="panel-title"> 4. Which is not a javascript method:></p>
+        </div>
+        <br>
+        <input type="radio" name="questionFour" value="0">toUpperCase().<br>
+        <input type="radio" name="questionFour" value="0">toLowerCase().<br>
+        <input type="radio" name="questionFour" value="25">toBold().<br>
+      </div>
+
+      <div class="submit">
+        <input type="button" id="submit" value="SUBMIT">
+      </div>
+    </form>
+  </div>
+
+  <div>
+    <div id="results">
+      <p id="display"></p>
+    </div>
+    <div class="refresh">
+      <input type="button" onclick="refresh()" value="REFRESH">
+    </div>
+  </div>
+  </div>
 </body>
-<html>
+
+</html>

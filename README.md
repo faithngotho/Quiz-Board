@@ -1,18 +1,12 @@
 ## Quiz-Board
-This is where a student is supposed to answer question by following instructions.
 
-## instructions
-The student is supposed to read the instruction two times before answering.
+## Description
+This is where a student is supposed to answer question by following instructions and submit their answers and get the results.
 
-## Section One
+## By: Faith Ngotho.
 
-This section contains questions whereby student is supposed to attempt.
-
-## Section Two
-This is a section where the student submit his/her work.
-
-## Section Three
-This is a section where the student gets his /her results.
+## Setup Instructions
+To access the web application you will need a computer, tablet or smartphone, internet connection, a text editor(atom is my preffered editor) and a web browser installed in your device(chromium is recommended). To open the webpage just run the URL below in your web browser.
 
 ## BDD
 |Behaviour                  |Input                      |Output              |
@@ -32,7 +26,10 @@ This is a section where the student gets his /her results.
 
 ## link
 This where the project is click to find it.
-https://github.com/faithngotho/Quiz-Board.git
+https://faithngotho.github.io/Quiz-Board/
+
+## Contact Information
+If you have any issues, questions, ideas or concerns, kindly reach me on: faithwangari248@gmail.com.
 
 ## License information
 
